@@ -1,0 +1,78 @@
+header {
+    background-image: url("../images/header.jpg");
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 80px;
+    font-size: 50px;
+}
+
+header nav ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.fleche {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.folios {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    margin: 5px 0;
+}
